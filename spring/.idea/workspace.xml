@@ -84,10 +84,11 @@
       <file leaf-file-name="TestSpring.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ztt/pojo/TestSpring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            <state relative-caret-position="285">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
                 <element signature="e#512#513#0" expanded="true" />
               </folding>
             </state>
@@ -156,8 +157,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="515" />
-    <option name="y" value="4" />
+    <option name="x" value="642" />
+    <option name="y" value="31" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -406,7 +407,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521472552879</updated>
-      <workItem from="1521472555610" duration="9183000" />
+      <workItem from="1521472555610" duration="9473000" />
     </task>
     <servers />
   </component>
@@ -419,10 +420,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9183000" />
+    <option name="totallyTimeSpent" value="9473000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="515" y="4" width="1400" height="1000" extended-state="0" />
+    <frame x="642" y="31" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -560,10 +561,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ztt/pojo/TestSpring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
             <element signature="e#512#513#0" expanded="true" />
           </folding>
         </state>
