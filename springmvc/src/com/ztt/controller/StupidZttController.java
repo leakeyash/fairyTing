@@ -1,16 +1,18 @@
 package com.ztt.controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 @Controller
-@RequestMapping(value = "/stupidZtt", method = RequestMethod.GET)
 public class StupidZttController {
-    @RequestMapping(value = "/getName", method = RequestMethod.GET)
-    public String GetName(ModelMap model) {
-        model.addAttribute("message", "Spring mvc StupidZttController");
-        return "first";
+    @RequestMapping("/index")
+    public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
+        ModelAndView mav = new ModelAndView("first");
+        mav.addObject("message", "Spring mvc StupidZttController");
+        return mav;
     }
 }
