@@ -13,6 +13,7 @@
     <servlet-mapping>
         <servlet-name>default</servlet-name>
         <url-pattern>*.jpg</url-pattern>
+        <url-pattern>*.gif</url-pattern>
     </servlet-mapping>
     <servlet>
         <servlet-name>dispatcher</servlet-name>

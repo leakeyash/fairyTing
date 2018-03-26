@@ -14,7 +14,7 @@ public class UploadController {
     @RequestMapping("/uploadImage")
     public ModelAndView upload(HttpServletRequest request, UploadImage uploadImage)throws IllegalStateException, IOException {
 
-        String name = randomAlphanumeric(10)+".jpg";
+        String name = randomAlphanumeric(10)+getExtensionName(uploadImage.getImage().getOriginalFilename());
         File newFile = new File(request.getServletContext().getRealPath("/image"),name);
         newFile.getParentFile().mkdirs();
         uploadImage.getImage().transferTo(newFile);
@@ -29,5 +29,9 @@ public class UploadController {
             sb.append((char)(int)(Math.random()*26+97));
         }
         return sb.toString();
+    }
+    private String getExtensionName(String fileName){
+        Integer index= fileName.lastIndexOf('.');
+        return fileName.substring(index);
     }
 }
